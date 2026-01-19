@@ -1,6 +1,10 @@
 
 #btn{
     border:0;
+    background-color: #33333300;
+    font-size: 36px;
+    line-height: 28px;
+    padding: 0 10px;
 }
 .header{
     display: flex;
@@ -67,6 +71,7 @@
 #modal-input {
     width: 100%; height: 100px;
     margin: 15px 0;
+    font-size: 16px;
     padding: 10px;
     box-sizing: border-box; /* 패딩 포함 크기 조절 */
 }
