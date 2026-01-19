@@ -1,0 +1,18 @@
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: #fff;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+}
+footer a{
+    text-decoration-line: none;
+    color: #333;
+}
+footer ul{
+    display: flex;
+    justify-content:space-around;
+    line-height: 80px;
+}

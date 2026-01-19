@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="./css/base.css">
+</head>
+<body>
+<div class='container'>
+    <div class="header">
+        <button class="date-last" id="btn">&lt;</button>
+        <h2 class='date-now'></h2>
+        <button class="date-next" id="btn">&gt;</button>
+    </div>
+    <div class="main">
+        <div class="calendar">
+            <div class="grid date-title">
+                <!-- 그리드 각 블록을 div로 정의한다. -->
+                <div>일</div>
+                <div>월</div>
+                <div>화</div>
+                <div>수</div>
+                <div>목</div>
+                <div>금</div>
+                <div>토</div>
+            </div>
+            <div class="grid date-board"></div>
+        </div>
+    </div>
+    </div>
+
+    <div id="modal-overlay" class="hidden">
+        <article class="modal-content">
+            <h3 id="modal-title"></h3>
+            <p>오늘의 기도제목</p>
+            <textarea id="modal-input" placeholder="1. 이번 한주도 기도함으로 나아가는 제가 되게 해주세요. 2. "></textarea>
+            <p>오늘의 감사일기</p>
+            <textarea id="modal-input" item id=" modal-input-2" placeholder="1. 오늘 하루를 이겨낼 힘을 주심에 감사드려요. 2. "></textarea>
+            <div class="modal-buttons">
+                <button id="modal-save">저장</button>
+                <button id="modal-close">취소</button>
+            </div>
+        </article>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="./cale.html">캘린더</a></li>
+            <li><a href="./index.html">채팅</a></li>
+            <!-- <li><a href="#">성경</a></li> -->
+            <li><a href="#">질문</a></li>
+        </ul>
+    </footer>
+</body>
+
+
+<script src="./js/index.js" defer></script>
+</html>
