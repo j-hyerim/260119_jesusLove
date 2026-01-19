@@ -80,7 +80,7 @@ function createShortcutElement(title, description) {
         <div class="shortcut-text">
         오늘의 <strong>[${title}]</strong> 적으셨나요?
         </div>
-        <button class="shortcut-btn"><a href="https://j-hyerim.github.io/260119_jesusLove/cale.html">이동하기</a></button>
+        <button class="shortcut-btn"><a href="../../cale.html">이동하기</a></button>
     `;
     chatBox.appendChild(box);
 }
