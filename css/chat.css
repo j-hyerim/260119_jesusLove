@@ -16,11 +16,13 @@ body {
 
 /* 메시지 말풍선 스타일 */
 .message-wrapper { align-self: flex-end; max-width: 80%; }
-.message-bubble { background: #f4dc96; color: white; padding: 10px 15px; border-radius: 15px 15px 0 15px; font-size: 14px; margin-bottom: 4px; }
+.message-bubble { background: #f4dc96; color: #333; padding: 10px 15px; border-radius: 15px 15px 0 15px; font-size: 16px; margin-bottom: 4px; }
 .message-info { font-size: 11px; color: #888; text-align: right; }
 
 .input-area { display: flex; border-top: 1px solid #ddd; padding: 10px; }
-#chat-input { flex: 1; border: none; padding: 10px; outline: none; }
+#chat-input { flex: 1; border: none; padding: 10px; outline: none;
+    font-size: 16px;
+}
 #send-btn { background: #f4dc96; color: #333; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
 
 /* 바로가기 상자 스타일 */
